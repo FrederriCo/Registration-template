@@ -8,4 +8,9 @@
 
 body, input, select, option {
     font: 16px/1.5 "Kode Mono", sans-serif;
-  }
+}
+
+body {
+    padding: 3em;
+    background: rgb(193, 189, 186);
+}
