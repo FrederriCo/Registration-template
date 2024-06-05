@@ -14,3 +14,8 @@ body {
     padding: 3em;
     background: rgb(193, 189, 186);
 }
+
+.flex {
+    display: flex;
+    gap: 1.5em;
+  }
