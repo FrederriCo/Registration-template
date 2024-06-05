@@ -1,12 +1,15 @@
 @import url(https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap);
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-body, input, select, option {
+body,
+input,
+select,
+option {
     font: 16px/1.5 "Kode Mono", sans-serif
 }
 
@@ -18,4 +21,8 @@ body {
 .flex {
     display: flex;
     gap: 1.5em;
-  }
+}
+
+.flex>* {
+    flex-grow: 1;
+}
