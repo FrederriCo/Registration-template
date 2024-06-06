@@ -26,3 +26,11 @@ body {
 .flex>* {
     flex-grow: 1;
 }
+
+form {
+    max-width: 35em;
+    margin: 0 auto;
+    background: rgb(36, 51, 60);
+    color: #fff;
+    padding: 2em;
+  }
