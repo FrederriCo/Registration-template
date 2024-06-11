@@ -42,3 +42,8 @@ form nav {
 form nav ul {
     display: flex;
 }
+
+form nav li {
+    display: block;
+    flex: 1 1 auto;
+  }
