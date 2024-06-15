@@ -57,8 +57,14 @@ form nav a {
     text-decoration: none;
     outline: none;
 }
-	
+
 form nav li.current a {
     background: rgb(26, 177, 135);
-  }
-  
+}
+
+form h3 {
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: normal;
+    padding: 0 0 1.8em 0;
+}
