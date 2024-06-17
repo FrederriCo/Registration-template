@@ -68,3 +68,9 @@ form h3 {
     font-weight: normal;
     padding: 0 0 1.8em 0;
 }
+
+	
+.field {
+    position: relative;
+    padding-bottom: 1.5em;
+  }
