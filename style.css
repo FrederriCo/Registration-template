@@ -73,4 +73,17 @@ form h3 {
 .field {
     position: relative;
     padding-bottom: 1.5em;
-  }
+}
+
+.field input[type="text"],
+.field input[type="email"],
+.field input[type="password"] {
+  display: block;
+  width: 100%;
+  border: 2px solid rgb(255,255,255,0.1);
+  background: transparent;
+  padding: 0.4em 0.6em;
+  line-height: 1;
+  outline: none;
+  color: #fff;
+}
