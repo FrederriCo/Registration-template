@@ -69,7 +69,7 @@ form h3 {
     padding: 0 0 1.8em 0;
 }
 
-	
+
 .field {
     position: relative;
     padding-bottom: 1.5em;
@@ -78,18 +78,18 @@ form h3 {
 .field input[type="text"],
 .field input[type="email"],
 .field input[type="password"] {
-  display: block;
-  width: 100%;
-  border: 2px solid rgb(255,255,255,0.1);
-  background: transparent;
-  padding: 0.4em 0.6em;
-  line-height: 1;
-  outline: none;
-  color: #fff;
+    display: block;
+    width: 100%;
+    border: 2px solid rgb(255, 255, 255, 0.1);
+    background: transparent;
+    padding: 0.4em 0.6em;
+    line-height: 1;
+    outline: none;
+    color: #fff;
 }
 
-	
-.field input + label {
+
+.field input+label {
     display: block;
     opacity: 0.5;
     padding: 0.4em 0.8em;
@@ -97,4 +97,9 @@ form h3 {
     top: 0.3em;
     left: 0;
     line-height: 1;
-  }
+}
+
+.field input:not(:placeholder-shown)+label,
+.field input:focus+label {
+    display: none;
+}
